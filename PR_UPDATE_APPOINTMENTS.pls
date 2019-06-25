@@ -1,7 +1,6 @@
 create or replace PROCEDURE pr_update_appointments
 AS
 BEGIN
-
   UPDATE appointment
   SET APPOINTMENT_DATETIME= null
      ,CHECKIN_DATETIME  = NULL
